@@ -44,7 +44,11 @@ Tix.org is a ticketing system that allows organizations to create, assign, and u
 + **Modals** - shows extra information such as confirmation dialogs, extended descriptions along with other supplementary data.
 
 #### 3.UML: Use Case and Class Diagram included:
-# Joshua & Prince kamo explain dri! Place here what you guys did for the Diagrams such as the actors and such
+The Use Case Diagram presents the main interactions within the TIX.org system through two primary actors: Head / Executive and Member. The Head / Executive is associated with functions such as logging in, viewing the dashboard, creating tickets, assigning tickets, managing members, and viewing analytics. The Member is associated with functions such as logging in, viewing the dashboard, viewing the volunteer board, viewing assigned tasks, volunteering for tickets, and receiving priority alerts. Include and extend relationships are also shown to represent dependent actions within the system, such as assigning a ticket after creating it, volunteering through the volunteer board, and receiving alerts when necessary.
+
+The Class Diagram presents the structural design of the system through the main classes: User, Head, Member, Ticket, VolunteerBoard, Dashboard, NotificationService, DatabaseManager, and UserFactory. The User class serves as the parent class containing common attributes and methods, while Head and Member are specialized subclasses with role-specific behaviors. The Ticket class contains the core task-related information, including title, description, priority, deadline, and status. Supporting classes such as VolunteerBoard, Dashboard, and NotificationService reflect the major system features involving volunteer task assignment, role-based views, analytics, and alerts. DatabaseManager and UserFactory are also included to support database access and object creation within the system.
+
+These diagrams reflect the overall functionality and structure of TIX.org in relation to ticket management, volunteer participation, monitoring of tasks, and role-based system access.
 
 #### 4.Design Pattern: (Tentative)
 + **Singleton** - Centralized connection point for MySQL Database
