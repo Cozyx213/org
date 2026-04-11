@@ -64,39 +64,54 @@
                   <Insets top="40.0" />
                </VBox.margin>
             </VBox>
-            <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="200.0" spacing="15.0" style="-fx-background-color: #1F2937; -fx-background-radius: 15;">
-               <VBox.margin>
-                  <Insets top="130.0" />
-               </VBox.margin>
+            <VBox alignment="CENTER_LEFT" prefWidth="100.0" spacing="5.0" style="-fx-background-color: #1F2937; -fx-background-radius: 15;">
                <children>
-                  <StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #2563EB; -fx-background-radius: 50;">
+                  <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="200.0" spacing="15.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
                      <children>
-                        <Label text="JN" textFill="WHITE">
-                           <font>
-                              <Font name="Calibri Bold" size="20.0" />
-                           </font>
-                        </Label>
+                        <StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #2563EB; -fx-background-radius: 50;">
+                           <children>
+                              <Label text="JN" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </StackPane>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Label text="Joshua N." textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Org Member" textFill="WHITE">
+                                 <font>
+                                    <Font name="Calibri" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
                      </children>
-                  </StackPane>
-                  <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
-                     <children>
-                        <Label text="Joshua N." textFill="WHITE">
-                           <font>
-                              <Font name="Calibri Bold" size="18.0" />
-                           </font>
-                        </Label>
-                        <Label text="Org Member" textFill="WHITE">
-                           <font>
-                              <Font name="Calibri" size="12.0" />
-                           </font>
-                        </Label>
-                     </children>
-                  </VBox>
+                  </HBox>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #e83535; -fx-background-radius: 5;" text="Logout" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="7.0" left="20.0" right="20.0" top="7.0" />
+                     </padding>
+                  </Button>
                </children>
                <padding>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="15.0" left="15.0" right="10.0" />
                </padding>
-            </HBox>
+               <VBox.margin>
+                  <Insets top="70.0" />
+               </VBox.margin>
+            </VBox>
          </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

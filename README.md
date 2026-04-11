@@ -37,11 +37,11 @@ Tix.org is a ticketing system that allows organizations to create, assign, and u
 + **Tickets** - encapsulates data with regards to the ticket such as ID, description and etc.
 + **DatabaseManager** - handles all JDBC operations.
 
-#### 2.GUI: JavaFX with FXML view:
-+ **Main Dashboard** - shows a centralized view of Ticket Management, Volunteer Board and other information
-+ **My View** - shows all assigned tickets, on-going as well as pending tasks. Holds all “productivity” information in response to own tasks.
-+ **Navigation Bar** - allows for quick switching between such as “My Task,” “Volunteer Board,” “Profile,” and “Settings.”
-+ **Modals** - shows extra information such as confirmation dialogs, extended descriptions along with other supplementary data.
+#### 2.GUI: JavaFX with FXML views:
++ **LoginView.fxml** - serves as the initial login screen where users authenticate before accessing the application.
++ **MainView.fxml** - serves as the application shell with a left sidebar, user profile area, and a main content region for navigation and page switching.
++ **DashboardView.fxml** - presents the main dashboard overview, including ticket statistics, available tickets, pending tasks, and recent activity.
++ **AddTicketView.fxml** - provides the ticket creation form with fields for title, description, category, and deadline, along with submit and cancel actions.
 
 #### 3.UML: Use Case and Class Diagram included:
 The Use Case Diagram presents the main interactions within the TIX.org system through two primary actors: Head / Executive and Member. The Head / Executive is associated with functions such as logging in, viewing the dashboard, creating tickets, assigning tickets, managing members, and viewing analytics. The Member is associated with functions such as logging in, viewing the dashboard, viewing the volunteer board, viewing assigned tasks, volunteering for tickets, and receiving priority alerts. Include and extend relationships are also shown to represent dependent actions within the system, such as assigning a ticket after creating it, volunteering through the volunteer board, and receiving alerts when necessary.
